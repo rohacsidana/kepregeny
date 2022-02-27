@@ -41,6 +41,12 @@
     text-decoration: none;
 }
 
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
 .front,
 .back {
     background-size: cover;
