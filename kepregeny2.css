@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article div img {
+  max-width: 400px;
+  padding: 15px;
+}
+section {
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  font-size: x-large;
+}
+footer {
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+}
