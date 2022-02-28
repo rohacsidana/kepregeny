@@ -1,13 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+}
 article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 article div img {
   max-width: 400px;
   padding: 15px;
+  border-radius: 50px;
 }
 section {
   text-align: center;
@@ -16,5 +24,9 @@ section {
 }
 footer {
   text-align: center;
-  font-family: 'Happy Monkey', cursive;
+  font-family: "Happy Monkey", cursive;
+  border-radius: 50px;
+  width: 400px;
+  background-color: rgb(42, 94, 55);
+  color: white;
 }
