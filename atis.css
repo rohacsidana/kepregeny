@@ -17,10 +17,32 @@ article{
 
 h1{
     text-align: center;
+    color: rgb(24, 87, 146);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hidden-sidebar{
+    color: rgb(24, 87, 146);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 article img{
     width: 400px;
     height: 400px;
     padding: 20px;
+}
+
+
+#atis{
+    height: 5px;
+}
+
+@media screen and (max-width: 600px){
+
+    article img{
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+    
 }
