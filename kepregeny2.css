@@ -12,7 +12,13 @@ article {
   justify-content: space-around;
   background-color: rgb(201, 248, 192);
   border-radius: 50px;
-  opacity: .9;
+  opacity: 0.9;
+}
+h1 {
+  -webkit-box-shadow: 6px 0px 34px 7px rgba(201, 248, 192, 0.79);
+  box-shadow: 6px 0px 34px 7px rgba(201, 248, 192, 0.79);
+  padding: 20px;
+  border-radius: 50px;
 }
 .navbar {
   background-image: url(kepek/fa.jpg);
@@ -21,7 +27,6 @@ article div img {
   max-width: 400px;
   padding: 15px;
   border-radius: 50px;
-  
 }
 section {
   text-align: center;
@@ -40,4 +45,10 @@ footer {
   background-color: rgb(201, 248, 192);
   border-radius: 10px;
   opacity: 0.8;
+}
+.middle-sidebar a {
+  color: rgb(0, 0, 0);
+}
+.header{
+  background-color: rgb(201, 248, 192);
 }
