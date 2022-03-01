@@ -51,5 +51,13 @@ footer {
   font-family: "Happy Monkey", cursive;
 }
 .header{
-  background-color: rgb(201, 248, 192);
+  background-color: rgb(60, 91, 53);
+}
+@media screen and (max-width: 600px){
+  article {
+    flex-flow: column wrap;
+  }
+  article img{
+    width: 200px;
+  }
 }
