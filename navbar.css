@@ -159,22 +159,8 @@ body {
     fill: var(--light-gray);
 }
 
-.sidebar-list-item.active {
-    fill: var(--accent-color);
-    background-color: var(--lightest-gray);
-}
-
 .sidebar-list-item:hover {
     background-color: var(--lightest-gray);
-}
-
-.sidebar-list-item.active::before {
-    content: "";
-    background-color: var(--accent-color);
-    height: 100%;
-    left: 0;
-    width: 3px;
-    position: absolute;
 }
 
 .sidebar.open {
