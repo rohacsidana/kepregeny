@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+.bemutatkozas h2 {
+  text-align: center;
+  font-family: "Bangers", cursive;
+  letter-spacing: 10px;
+}
+.bemutatkozas {
+  padding: 10px;
+  background-color: rgb(250, 209, 209);
+  border: 5px solid rgb(149, 7, 19);
+  border-radius: 40px;
+  opacity: 0.99;
+  font-family: 'League Spartan', sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 20px;
+}
+.wrapper {
+  background-color: rgb(250, 209, 209);
+  border-radius: 40px;
+  opacity: 0.99;
+  margin-top: 50px;
+  border: 5px solid rgb(149, 7, 19);
+  font-family: 'League Spartan', sans-serif;
+}
+.navbar {
+  background-image: url(kepek/hatter.jpg);
+  background-repeat: repeat;
+}
+.middle-sidebar {
+  background-color: rgb(250, 209, 209);
+  border-radius: 1px;
+  opacity: 0.8;
+  font-family: "Bangers", cursive;
+  letter-spacing: 3px;
+  color: black;
+}
+.header {
+  background-color: rgb(5, 206, 206);
+}
+footer{
+    font-family: 'League Spartan', sans-serif;
+}
