@@ -76,10 +76,73 @@
         </section>
         <article>
           <p>
-            fasz fasz
+            Ezen az oldalon tudod értékelni a munkánkat. Webprogramozás órán
+            kaptuk, mint feladat, és megpróbáltuk az eddigi összes tanult dolgot
+            belerakni. De az ember hibázik, és nem lehet az egész tökéletes.
+            Kíváncsiak vagyunk mindenki véleményére azzal kapcsolatban, hogy mi
+            tetszett, mi nem tetszett, és, hogy miben tudnánk fejlődni. Előre is
+            köszönjük a visszajelzéseket!
           </p>
-        </article>
+          <br><br>
+          <form>
+            <div class="bal">
+              <div>
+                <label for="fname">Vezetéknév:</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  placeholder="Kovács"
+                />
+                <br /><br>
+                <label for="lname">Keresztnév:</label>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  placeholder="Andrea"
+                /><br /><br />
+              </div>
+              <div>
+                <label for="start">Születési idő:</label>
 
+                <input
+                  type="date"
+                  id="start"
+                  name="trip-start"
+                  value="2022-03-1"
+                  min="1900-01-01"
+                  max="2022-03-01"
+                />
+                <br /><br />
+              </div>
+            </div>
+            <div class="jobb">
+              <div>
+                <label for="tetszett">Ez tetszett a legjobban:</label>
+                <input
+                  type="text"
+                  id="tetszett"
+                  name="tetszett"
+                  placeholder="Tetszett, hogy..."
+                />
+                <br /><br>
+
+                <label for="ntetszett">Ez nem tetszett:</label>
+                <input
+                  type="text"
+                  id="ntetszett"
+                  name="ntetszett"
+                  placeholder="Nem tetszett, hogy..."
+                />
+                <br />
+              </div>
+              <br /><br />
+            </div>
+            
+          </form>
+          <div class="submit"><input type="submit" value="Küldés" /></div>
+        </article>
         <footer>&copy; Minden jog fenntartva</footer>
       </main>
     </div>

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 main {
   display: flex;
   flex-wrap: wrap;
@@ -7,29 +8,33 @@ main {
 }
 article {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
   justify-content: space-around;
   background-color: rgb(134, 93, 170);
-  border-radius: 50px;
+  border-radius: 20px;
   opacity: 0.9;
+  font-family: 'Nunito', sans-serif;
+  color: white;
 }
 h1 {
-    color: #40304e;
-    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
-    color: #40304e;
-    background-color: #865DAA;
-    border-radius: 50px;
-    opacity: .9;
+  color: #40304e;
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+  color: #40304e;
+  background-color: #865daa;
+  border-radius: 10px;
+  opacity: 0.9;
 }
 .navbar {
   background-image: url(kepek/urlaphatter.jpg);
 }
-article div img {
-  max-width: 400px;
-  padding: 15px;
-  border-radius: 50px;
-}
+
 section {
   text-align: center;
   font-family: "Girassol", cursive;
@@ -39,9 +44,8 @@ section {
 footer {
   text-align: center;
   font-family: "Girassol", cursive;
-  border-radius: 50px;
+  border-radius: 40px;
   width: 400px;
-
   color: white;
 }
 .middle-sidebar {
@@ -56,4 +60,19 @@ footer {
 }
 .header {
   background-color: rgb(60, 33, 83);
+}
+form{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;    
+    color: white;
+}
+.submit{
+    margin: auto;
+}
+@media screen and (max-width: 600px){
+    form{
+        flex-direction: column;
+    }
 }
